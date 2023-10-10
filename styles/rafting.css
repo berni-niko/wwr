@@ -93,11 +93,23 @@ h1 {
 }
 .adventure {
     display: flex;
+    background-color: brown;
     padding: 20px;
     margin: 20px;
 }
 
+figure {
+    text-align: center;
+    justify-content: space-around;
+}
 
+figcaption {
+    display: flex;
+    align-items: baseline;
+    
+    
+    
+}
 
 .sociallinks {
     padding: 20px;
