@@ -87,11 +87,16 @@ h1 {
     height: 20%;
 }
 
+.h2-adventure {
+    font-size: 3rem;
+    text-align: center;
+}
 .adventure {
     display: flex;
     padding: 20px;
     margin: 20px;
 }
+
 
 
 .sociallinks {
