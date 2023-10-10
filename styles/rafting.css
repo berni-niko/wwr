@@ -1,0 +1,110 @@
+
+header  {
+    margin: 1rem auto;
+	display: grid;
+}
+
+
+nav {
+    display: flex;
+    font-family: fantasy;
+	font-size: 2em;
+	width: 100%;
+	text-align: center;
+	margin-top: 10px;
+}
+
+a {
+    padding: 20px;
+}
+
+img {
+    /* width: 600px;
+	height: 400px;
+	margin: 10px; */
+}
+
+.hero {
+    background-image: url(../images/river-narrow-med.png);
+    background-size: cover;
+    flex-wrap: nowrap;
+    font-size: 2rem;
+}
+  
+
+.website-logo {
+    float: right;
+    clear: both;
+    padding: 20px;
+    width: 10%;
+    height: 10%;
+    
+}
+
+h1 {
+    color: white;
+    font-size: 3em;
+    width: 100%;
+    text-align: center;
+    background-color: lightblue;
+    opacity: 0.5;
+    padding: 20px;
+    position: absolute;  
+}
+
+.p-hero {
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(196, 247, 130, 0.486);
+}
+
+.history    {
+    padding: 30px;
+    margin: 70px;
+    background-color: beige;
+}
+
+.history-h2  {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 3em;
+    clear: both;
+
+}
+
+.history-p {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+    font-size: 2em;
+    clear: both;
+}
+
+.img-history {
+    clear: both;
+    width: 20%;
+    height: 20%;
+}
+
+.adventure {
+    display: flex;
+    padding: 20px;
+    margin: 20px;
+}
+
+
+.sociallinks {
+    padding: 20px;
+    margin: 20px;
+    float: right;
+    justify-content: flex-end;
+    
+}
+
+
+ .p-footer {
+    text-align: center;
+    padding: 10px;
+    margin: 10px;
+}
