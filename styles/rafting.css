@@ -103,11 +103,13 @@ figure {
     justify-content: space-around;
 }
 
+h4  {
+    font-size: 2em;
+}
+
 figcaption {
     display: flex;
-    align-items: baseline;
-    
-    
+    align-items: baseline;  
     
 }
 
