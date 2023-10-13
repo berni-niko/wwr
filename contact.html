@@ -1,16 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contact Us</title>
     <meta name="description" content="Nicolas Tomu's BYU-Idaho WDD 130 contact us page">
     <meta name="author" content="Nicolas Tomu">
-    <link rel="stylesheet" href="styles/rafting.css">
+    <link rel="stylesheet" href="styles/contact.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Montserrat:wght@600&family=Open+Sans&display=swap" rel="stylesheet">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Montserrat:wght@600&family=Open+Sans&display=swap"
+        rel="stylesheet">
 </head>
+
 <body>
     <header>
         <img src="images/wwrlogont.png" alt="Website Logo">
@@ -18,47 +22,77 @@
             <a href="https://berni-niko.github.io/wdd130/index.html">Home</a>
             <a href="https://berni-niko.github.io/wdd130/about.html">About Us</a>
             <a href="https://berni-niko.github.io/wdd130/trip.html">Trips</a>
-            <a href="https://berni-niko.github.io/wdd130/contact.html">Contact Us</a>                   
+            <a href="https://berni-niko.github.io/wdd130/contact.html">Contact Us</a>
         </nav>
     </header>
+
     <main>
-      <h1>Contact Us</h1>
-      <table>
-        <tr>
-            <td></td>
-            <td></td>
-        </tr>
-        <tr>
+        <section>
+            <h2>Contact Details</h2>
+            <address>
+                123 Rafting Way, River City, RA 12345<br>
+                Phone: (123) 456-7890<br>
+                Email: <a href="mailto:info@wwrrafting.com">info@wwrrafting.com</a>
+            </address>
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11901.295155128128!2d175.30841474692795!3d-37.80771041255802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1697170250078!5m2!1sen!2snz"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+        <section>
+            <h2>Meet Our Team</h2>
+            <figure>
+                <img src="images/russellcrow.png" alt="Employee Name 1">
+                <figcaption>Employee Name 1 - Position</figcaption>
+            </figure>
+            <figure>
+                <img src="images/maori-woman.png" alt="Employee Name 1">
+                <figcaption>Employee Name 2 - Position</figcaption>
+            </figure>
+            <figure>
+                <img src="images/lady.png" alt="Employee Name 1">
+                <figcaption>Employee Name 3 - Position</figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Contact Us</h2>
+            <form>
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
 
-        </tr>
-        <tr>
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
 
-        </tr>
-      </table>
+                <label>Purpose:</label>
+                <input type="radio" id="general" name="purpose" value="general" required>
+                <label for="general">General Inquiry</label>
 
-      <p>White Water Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi doloribus aut modi quisquam quo architecto, enim mollitia beatae saepe est quia nam, nostrum eligendi incidunt reiciendis eos debitis temporibus et! Veniam vero eligendi dolor corrupti alias corporis necessitatibus rem, ipsum, quo, aliquid esse vel repellat modi voluptate voluptates atque doloremque!</p>
-      <form>
-        <label for="name">Name:</label>
-        <input type="text" name="name" id="name" required>
-        <label for="email">Email:</label>
-        <input type="email" name="email" id="email" required>
-        <label for="phone">phone:</label>
-        <input type="tel" name="phone" id="phone" required>
-        <label for="message">Message:</label>
-        <textarea name="message" id="message" cols="30" rows="10 required"></textarea>
-        <input type="submit" value="Send">
-        <div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d11901.295155128128!2d175.30841474692795!3d-37.80771041255802!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1697170250078!5m2!1sen!2snz" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
-      </form>
+                <input type="radio" id="reservation" name="purpose" value="reservation">
+                <label for="reservation">Reservation Question</label>
+
+                <input type="radio" id="website" name="purpose" value="website">
+                <label for="website">Website Suggestion</label>
+
+                <label for="message">Message:</label>
+                <textarea id="message" name="message"></textarea>
+
+                <input type="checkbox" id="subscribe" name="subscribe">
+                <label for="subscribe">Please subscribe me to the monthly newsletter</label>
+
+                <button type="submit">Submit</button>
+            </form>
+        </section>
     </main>
+
+    <footer>
+        <p class="p-footer">©2024 😊 Nicolas Tomu 😊 Hamilton 😊 NZ</p>
+        <div class="sociallinks">
+            <a href="https://facebook.com" target="_blank"><img src="images/facebook_circle_color-64.png"
+                    alt="Facebook"></a>
+            <a href="https://instagram.com" translate="_blank"><img src="images/instagram_icon.png" alt="Instagram"></a>
+            <a href="https://twitter.com/" target="_blank"><img src="images/x_twitter.png" alt="x_twitter">
+        </div>
+    </footer>
 </body>
-<footer>
-    <p class="p-footer">©2024 😊 Nicolas Tomu 😊 Hamilton 😊 NZ</p>
-    <div class="sociallinks">
-        <a href="https://facebook.com" target="_blank"><img src="images/facebook_circle_color-64.png" alt="Facebook"></a>        
-        <a href="https://instagram.com" translate="_blank"><img src="images/instagram_icon.png" alt="Instagram"></a>       
-        <a href="https://twitter.com/" target="_blank"><img src="images/x_twitter.png" alt="x_twitter">        
-    </div>
-</footer>  
+
 </html>
