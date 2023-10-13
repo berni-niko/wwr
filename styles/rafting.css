@@ -1,129 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=YourFontNameHere&display=swap');
 
-header  {
-    margin: 1rem auto;
-	display: grid;
+:root {
+    /* Add your color schema here. Example: */
+    --primary-color: #3498db;
+    --secondary-color: #e74c3c;
+    --text-color: #333;
+    /* Add other colors from your schema as needed */
 }
 
+body {
+    font-family: 'YourFontNameHere', sans-serif;
+    color: var(--text-color);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+header {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    /* Adjusts as per the wireframe or your preference */
+    gap: 50px;
+    /* Spacing between logo and navigation */
+}
+
+header img {
+    
+}
 
 nav {
     display: flex;
-    font-family: fantasy;
-	font-size: 2em;
-	width: 100%;
-	text-align: center;
-	margin-top: 10px;
+    justify-content: space-between;
 }
 
-a {
-    padding: 20px;
-}
-
-img {
-    /* width: 600px;
-	height: 400px;
-	margin: 10px; */
-}
 
 .hero {
-    background-image: url(../images/river-narrow-med.png);
-    background-size: cover;
-    flex-wrap: nowrap;
-    font-size: 2rem;
-}
-  
-
-.website-logo {
-    float: right;
-    clear: both;
-    padding: 20px;
-    width: 10%;
-    height: 10%;
-    
+    position: relative;
 }
 
-h1 {
-    color: white;
-    font-size: 3em;
+.hero img {
     width: 100%;
-    text-align: center;
-    background-color: lightblue;
-    opacity: 0.5;
+    display: block;
+}
+
+.hero h1 {
+    position: absolute;
+    top: 20%;
+    left: 10%;
+}
+
+.hero article {
+    position: absolute;
+    top: 50%;
+    left: 10%;
+    background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
-    position: absolute;  
 }
 
-.p-hero {
-    padding: 20px;
-    margin: 20px;
-    background-color: rgba(196, 247, 130, 0.486);
-}
-
-.history    {
-    padding: 30px;
-    margin: 70px;
-    background-color: beige;
-}
-
-.history-h2  {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 3em;
-    clear: both;
-
-}
-
-.history-p {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
-    font-size: 2em;
-    clear: both;
-}
-
-.img-history {
-    clear: both;
-    width: 20%;
-    height: 20%;
-}
-
-.h2-adventure {
-    font-size: 3rem;
-    text-align: center;
-}
-.adventure {
-    display: flex;
-    background-color: brown;
-    padding: 20px;
-    margin: 20px;
-}
-
-figure {
-    text-align: center;
-    justify-content: space-around;
-}
-
-h4  {
-    font-size: 2em;
-}
-
-figcaption {
-    display: flex;
-    align-items: baseline;  
-    
-}
-
-.sociallinks {
-    padding: 20px;
-    margin: 20px;
+.hero article img {
     float: right;
-    justify-content: flex-end;
-    
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    /* Space between elements in the section */
+}
+
+/* For the Adventure section */
+section figure {
+    display: inline-block;
+    /* Making them inline to span horizontally */
+    margin: 0 10px;
+    /* Spacing between the images */
+    text-align: center;
+    /* Center the caption below the image */
 }
 
 
- .p-footer {
-    text-align: center;
-    padding: 10px;
-    margin: 10px;
+
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* You might need to adjust the size of the social icons if they are too big/small */
+footer img {
+    width: 30px;
+    height: 30px;
+    margin: 0 10px;
+    /* Space between icons */
 }
