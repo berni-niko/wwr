@@ -1,11 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=YourFontNameHere&display=swap');
 
 :root {
-    /* Add your color schema here. Example: */
+
     --primary-color: #3498db;
     --secondary-color: #e74c3c;
     --text-color: #333;
-    /* Add other colors from your schema as needed */
+
 }
 
 body {
@@ -19,14 +19,10 @@ body {
 header {
     display: grid;
     grid-template-columns: 1fr 3fr;
-    /* Adjusts as per the wireframe or your preference */
     gap: 50px;
-    /* Spacing between logo and navigation */
+
 }
 
-header img {
-    
-}
 
 nav {
     display: flex;
