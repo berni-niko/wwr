@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=YourFontNameHere&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Martian+Mono:wght@200&family=Montserrat:wght@600&family=Open+Sans&display=swap');
 
 :root {
 
@@ -9,7 +9,7 @@
 }
 
 body {
-    font-family: 'YourFontNameHere', sans-serif;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: var(--text-color);
     max-width: 1200px;
     margin: 0 auto;
@@ -61,20 +61,15 @@ section {
     display: flex;
     flex-direction: column;
     gap: 20px;
-    /* Space between elements in the section */
+
 }
 
-/* For the Adventure section */
 section figure {
     display: inline-block;
-    /* Making them inline to span horizontally */
     margin: 0 10px;
-    /* Spacing between the images */
     text-align: center;
-    /* Center the caption below the image */
+
 }
-
-
 
 footer {
     display: flex;
@@ -82,10 +77,10 @@ footer {
     align-items: center;
 }
 
-/* You might need to adjust the size of the social icons if they are too big/small */
+
 footer img {
     width: 30px;
     height: 30px;
     margin: 0 10px;
-    /* Space between icons */
+
 }
