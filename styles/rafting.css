@@ -32,11 +32,19 @@ nav {
 
 .hero {
     position: relative;
+
 }
 
 .hero img {
     width: 100%;
     display: block;
+}
+
+h1 {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+    background-color: rgba(182, 216, 82, 0.6);
 }
 
 .hero h1 {
@@ -45,16 +53,22 @@ nav {
     left: 10%;
 }
 
+article {
+    justify-content: ;
+}
+
 .hero article {
     position: absolute;
     top: 50%;
     left: 10%;
     background-color: rgba(255, 255, 255, 0.6);
     padding: 20px;
+
 }
 
 .hero article img {
     float: right;
+    width: 280px;
 }
 
 section {
@@ -70,6 +84,8 @@ section figure {
     text-align: center;
 
 }
+
+
 
 footer {
     display: flex;
