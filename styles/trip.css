@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 * {
     box-sizing: border-box;
     margin: 0;
@@ -136,4 +137,144 @@ body {
 
 .wireframe-link a:hover {
     background-color: #d1390b;
+=======
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+.site-header {
+    background-color: #333;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.site-header .logo {
+    width: 100px;
+}
+
+.main-nav a {
+    color: #fff;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+}
+
+.main-nav a:hover {
+    background-color: #555;
+}
+
+.main-content {
+    padding: 2rem;
+}
+
+.cta {
+    text-align: center;
+    padding: 3rem;
+    background-color: #f4f4f4;
+}
+
+.cta-button {
+    display: inline-block;
+    color: #fff;
+    background-color: #e8491d;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+
+.trip-descriptions article {
+    margin-bottom: 2rem;
+}
+
+.trip-descriptions img {
+    max-width: 100%;
+    height: auto;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 2rem;
+}
+
+.trips-table th,
+.trips-table td {
+    border: 1px solid #ddd;
+    padding: 0.5rem;
+    text-align: left;
+}
+
+.site-footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1rem;
+    position: relative;
+}
+
+.site-footer .sociallinks img {
+    width: 40px;
+    height: auto;
+    margin: 0 0.5rem;
+}
+
+.trip-descriptions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    justify-content: space-between;
+}
+
+.trip-card {
+    background-color: #f9f9f9;
+    padding: 1rem;
+    border-radius: 8px;
+    width: 30%;
+
+}
+
+.trip-card img {
+    max-width: 100%;
+    border-radius: 8px;
+}
+
+.trips-table table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.trips-table th,
+.trips-table td {
+    padding: 0.75rem;
+    border: 1px solid #ccc;
+}
+
+.trips-table th {
+    background-color: #f4f4f4;
+}
+
+.wireframe-link {
+    padding: 1rem;
+}
+
+.wireframe-link a {
+    text-decoration: none;
+    color: #fff;
+    background-color: #e8491d;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    font-size: 0.9rem;
+}
+
+.wireframe-link a:hover {
+    background-color: #d1390b;
+>>>>>>> 6505118689d7e66295d30ce70fd4f01570c78f6b
 }
