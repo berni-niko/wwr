@@ -55,22 +55,6 @@ nav ul li a:hover {
     margin-top: 0;
 }
 
-/* #newsletter,
-#cta {
-    background-color: #fff;
-    padding: 20px;
-    margin: 20px 0;
-    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
-}
-
-#newsletter label,
-#newsletter input,
-#newsletter button {
-    display: block;
-    width: 100%;
-    margin-bottom: 10px;
-    padding: 10px;
-} */
 
 #newsletter input[type="text"],
 #newsletter input[type="email"] {
